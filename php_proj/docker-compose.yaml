@@ -15,9 +15,10 @@ services:
  db:
   image: public.ecr.aws/docker/library/mysql:oracle
   environment:
-   MYSQL_DATABASE: docker_db
-   MYSQL_USER: 1twoBucklemYshOe
-   MYSQL_PASSWORD: xT6By=0VzQxYju8es4i00t;ef.dc
+#REPLACE BLANKS WITH OWN CREDENTIALS
+   MYSQL_DATABASE: 
+   MYSQL_USER:
+   MYSQL_PASSWORD:
    MYSQL_ALLOW_EMPTY_PASSWORD: 0
   networks:
    - evan-network

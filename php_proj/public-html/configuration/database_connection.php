@@ -1,8 +1,9 @@
 <?php
-	define('DB_HOST', 'db');
-	define('DB_USER', '1twoBucklemYshOe');
-	define('DB_PASS', 'xT6By=0VzQxYju8es4i00t;ef.dc');
-	define('DB_NAME', 'docker_db');
+//Add own credentials that matches your database info
+	define('DB_HOST', '');
+	define('DB_USER', '');
+	define('DB_PASS', '');
+	define('DB_NAME', '');
 
 	//Create connection
 
